@@ -1,0 +1,83 @@
+body {
+  margin-top: 3.5rem;
+  font-weight: 300;
+}
+
+button {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 25%;
+          flex: 1 25%;
+  font-size: 1.7rem;
+  font-weight: normal;
+  border-radius: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0px auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1.5px solid teal;
+  background-color: #f8f8f8;
+  border-bottom: thin;
+  border-right: thin;
+}
+
+.last {
+  border-bottom: 1.5px solid teal;
+}
+
+.side {
+  border-right: 1.5px solid teal;
+  background-color: orange;
+}
+
+.clear {
+  background-color: crimson;
+}
+
+.display {
+  width: 100%;
+  background-color: #f8f8f8;
+  border: 1px solid;
+  height: 80px;
+  font-size: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.buttons {
+  max-width: 360px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.divide {
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+.btn {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 25%;
+          flex: 1 25%;
+}
+
+.equals-operator {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 50%;
+          flex: 1 50%;
+  background-color: teal;
+}
+/*# sourceMappingURL=style.css.map */
