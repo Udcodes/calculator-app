@@ -3,7 +3,7 @@ const display = document.querySelector(".display");
 const clearButton = document.querySelector(".clear");
 const equalsButton = document.querySelector(".equals-operator");
 let displayData = "";
-
+//to loop through all buttons and display what is clicked to the display bar
 buttons.forEach(button => {
   button.addEventListener("click", () => {
     const buttonValue = button.getAttribute("data-num");
