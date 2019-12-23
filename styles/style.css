@@ -21,6 +21,10 @@ button {
   border-right: thin;
 }
 
+button:hover {
+  background-color: lightseagreen;
+}
+
 .last {
   border-bottom: 1.5px solid teal;
 }
@@ -31,7 +35,11 @@ button {
 }
 
 .clear {
-  background-color: crimson;
+  background-color: #dc143c;
+}
+
+.clear:hover {
+  background-color: #df433c;
 }
 
 .display {
